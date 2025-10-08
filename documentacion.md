@@ -103,3 +103,17 @@ Propondremos un **script en Python** que siga estos pasos de manera sencilla:
 - **clientes.xlsx ↔ ventas.xlsx**: `id_cliente` es la clave primaria en *clientes* y clave foránea en *ventas*.
 - **ventas.xlsx ↔ detalle_ventas.xlsx**: `id_venta` es la clave primaria en *ventas* y clave foránea en *detalle_ventas*.
 - **productos.xlsx ↔ detalle_ventas.xlsx**: `id_producto` es la clave primaria en *productos* y clave foránea en *detalle_ventas*.
+
+// ...existing code...
+
+## 5. Aporte de GitHub Copilot
+
+GitHub Copilot asistió en la elaboración de esta documentación de manera práctica y reproducible:
+
+- Leyó y sintetizó la estructura de las cuatro bases de datos (clientes, ventas, productos, detalle_ventas), identificando columnas, tipos de dato y ejemplos representativos.
+- Describió las relaciones entre tablas y precisó los campos necesarios para el análisis (claves y columnas relevantes).
+- Propuso el flujo de solución (lectura de archivos, uniones, agregaciones y generación de listas de top productos y top clientes).
+- Recomendó validaciones y controles de calidad de datos (nulos, duplicados, verificación de importes) y métricas adicionales útiles (cantidad vendida, facturación, frecuencia y gasto total).
+- Sugerencias prácticas para implementación: librerías (pandas, openpyxl), formatos de salida (CSV/Excel) y opciones de visualización para facilitar la toma de decisiones.
+
+Este aporte fue empleado para estructurar y clarificar el problema, definir los pasos técnicos y dejar una guía clara para implementar el script en Python.
