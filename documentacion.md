@@ -6,9 +6,13 @@
 
 ## 2. Problema
 
-La tienda quiere identificar **qué productos son los más vendidos** y **quiénes son los clientes que más compran**, para diseñar promociones y descuentos que aumenten la recompra y la fidelización.
+La tienda carece de información analítica estructurada para responder preguntas comerciales básicas: ¿qué productos generan mayor volumen de ventas?, ¿quiénes son los clientes que compran con más frecuencia o gastan más? Sin estas respuestas, las decisiones sobre promociones, compras y gestión de stock son reactivas y poco focalizadas, lo que provoca oportunidades perdidas de aumentar la recompra, optimizar inventario y mejorar la rentabilidad.
+
+Además, la información disponible está distribuida en varias tablas (clientes, ventas, detalle_ventas, productos) y no está integrada ni resumida de forma que permita identificar fácilmente top productos o top clientes. El objetivo es resolver esta falta de visibilidad mediante un análisis reproducible que identifique los productos más vendidos y los clientes con mayor contribución, para soportar estrategias de promoción y fidelización.
 
 ## 3. Solución
+
+La tienda quiere identificar **qué productos son los más vendidos** y **quiénes son los clientes que más compran**, para diseñar promociones y descuentos que aumenten la recompra y la fidelización.
 
 Propondremos un **script en Python** que siga estos pasos de manera sencilla:
 
